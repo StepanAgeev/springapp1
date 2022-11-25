@@ -8,7 +8,7 @@ public class TestSpring {
         TestBean testBean = context.getBean("testBean", TestBean.class);
 
         System.out.println(testBean.getName());
-
+//Test 2
         context.close();
     }
 }
